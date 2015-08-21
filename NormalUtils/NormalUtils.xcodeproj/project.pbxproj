@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E74811C51B845C020009D2D8 /* NSString+create.m in Sources */ = {isa = PBXBuildFile; fileRef = E74811C41B845C020009D2D8 /* NSString+create.m */; };
-		E74811C81B8461000009D2D8 /* UIWebView+operations.m in Sources */ = {isa = PBXBuildFile; fileRef = E74811C71B8461000009D2D8 /* UIWebView+operations.m */; };
 		E74811F01B8464C40009D2D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E74811D41B8464C40009D2D8 /* MBProgressHUD.m */; };
 		E74811F11B8464C40009D2D8 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E74811D61B8464C40009D2D8 /* MJRefresh.bundle */; };
 		E74811F21B8464C40009D2D8 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74811D91B8464C40009D2D8 /* MJRefreshBaseView.m */; };
@@ -26,6 +24,16 @@
 		E74812111B8469480009D2D8 /* icon-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E74812071B8469480009D2D8 /* icon-info@2x.png */; };
 		E74812121B8469480009D2D8 /* icon-success.png in Resources */ = {isa = PBXBuildFile; fileRef = E74812081B8469480009D2D8 /* icon-success.png */; };
 		E74812131B8469480009D2D8 /* icon-success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E74812091B8469480009D2D8 /* icon-success@2x.png */; };
+		E798B8491B85B7A700FA96B2 /* NSString+create.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B83F1B85B7A700FA96B2 /* NSString+create.m */; };
+		E798B84A1B85B7A700FA96B2 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B8421B85B7A700FA96B2 /* UIColor+Util.m */; };
+		E798B84B1B85B7A700FA96B2 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B8451B85B7A700FA96B2 /* UIView+Util.m */; };
+		E798B84C1B85B7A700FA96B2 /* UIWebView+operations.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B8481B85B7A700FA96B2 /* UIWebView+operations.m */; };
+		E798B84F1B85C87600FA96B2 /* NSString+drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B84E1B85C87600FA96B2 /* NSString+drawing.m */; };
+		E798B8531B85D78F00FA96B2 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B8521B85D78F00FA96B2 /* NSDate+Utils.m */; };
+		E798B85B1B85D79F00FA96B2 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E798B8561B85D79F00FA96B2 /* libmp3lame.a */; };
+		E798B85C1B85D79F00FA96B2 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B8581B85D79F00FA96B2 /* Mp3Recorder.m */; };
+		E798B85D1B85D79F00FA96B2 /* UUAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B85A1B85D79F00FA96B2 /* UUAVAudioPlayer.m */; };
+		E798B8601B85DF3C00FA96B2 /* CommonNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = E798B85F1B85DF3C00FA96B2 /* CommonNotifications.m */; };
 		E7D55DA41B831222004A33FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D55DA31B831222004A33FF /* Foundation.framework */; };
 		E7D55DA61B831222004A33FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D55DA51B831222004A33FF /* CoreGraphics.framework */; };
 		E7D55DA81B831222004A33FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D55DA71B831222004A33FF /* UIKit.framework */; };
@@ -66,10 +74,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E74811C31B845C020009D2D8 /* NSString+create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+create.h"; sourceTree = "<group>"; };
-		E74811C41B845C020009D2D8 /* NSString+create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+create.m"; sourceTree = "<group>"; };
-		E74811C61B8461000009D2D8 /* UIWebView+operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+operations.h"; sourceTree = "<group>"; };
-		E74811C71B8461000009D2D8 /* UIWebView+operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+operations.m"; sourceTree = "<group>"; };
 		E74811D31B8464C40009D2D8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E74811D41B8464C40009D2D8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		E74811D61B8464C40009D2D8 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
@@ -96,6 +100,26 @@
 		E74812071B8469480009D2D8 /* icon-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-info@2x.png"; sourceTree = "<group>"; };
 		E74812081B8469480009D2D8 /* icon-success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-success.png"; sourceTree = "<group>"; };
 		E74812091B8469480009D2D8 /* icon-success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-success@2x.png"; sourceTree = "<group>"; };
+		E798B83E1B85B7A700FA96B2 /* NSString+create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+create.h"; sourceTree = "<group>"; };
+		E798B83F1B85B7A700FA96B2 /* NSString+create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+create.m"; sourceTree = "<group>"; };
+		E798B8411B85B7A700FA96B2 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		E798B8421B85B7A700FA96B2 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		E798B8441B85B7A700FA96B2 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		E798B8451B85B7A700FA96B2 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		E798B8471B85B7A700FA96B2 /* UIWebView+operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+operations.h"; sourceTree = "<group>"; };
+		E798B8481B85B7A700FA96B2 /* UIWebView+operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+operations.m"; sourceTree = "<group>"; };
+		E798B84D1B85C87600FA96B2 /* NSString+drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+drawing.h"; sourceTree = "<group>"; };
+		E798B84E1B85C87600FA96B2 /* NSString+drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+drawing.m"; sourceTree = "<group>"; };
+		E798B8511B85D78F00FA96B2 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		E798B8521B85D78F00FA96B2 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		E798B8551B85D79F00FA96B2 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		E798B8561B85D79F00FA96B2 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		E798B8571B85D79F00FA96B2 /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
+		E798B8581B85D79F00FA96B2 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
+		E798B8591B85D79F00FA96B2 /* UUAVAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUAVAudioPlayer.h; sourceTree = "<group>"; };
+		E798B85A1B85D79F00FA96B2 /* UUAVAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUAVAudioPlayer.m; sourceTree = "<group>"; };
+		E798B85E1B85DF3C00FA96B2 /* CommonNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonNotifications.h; sourceTree = "<group>"; };
+		E798B85F1B85DF3C00FA96B2 /* CommonNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonNotifications.m; sourceTree = "<group>"; };
 		E7D55DA01B831222004A33FF /* NormalUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NormalUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D55DA31B831222004A33FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E7D55DA51B831222004A33FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -149,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D55DA61B831222004A33FF /* CoreGraphics.framework in Frameworks */,
+				E798B85B1B85D79F00FA96B2 /* libmp3lame.a in Frameworks */,
 				E7D55DA81B831222004A33FF /* UIKit.framework in Frameworks */,
 				E7D55DA41B831222004A33FF /* Foundation.framework in Frameworks */,
 			);
@@ -170,6 +195,7 @@
 		E74811C91B8464C40009D2D8 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				E798B8541B85D79F00FA96B2 /* MP3Recorder */,
 				E74811CA1B8464C40009D2D8 /* MBProgressHUD */,
 				E74811D51B8464C40009D2D8 /* MJRefresh */,
 				E74811DE1B8464C40009D2D8 /* SDURLCache */,
@@ -248,6 +274,78 @@
 			path = icons;
 			sourceTree = "<group>";
 		};
+		E798B8361B85B70100FA96B2 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				E798B8501B85D78F00FA96B2 /* NSDate */,
+				E798B83D1B85B7A700FA96B2 /* NSString */,
+				E798B8401B85B7A700FA96B2 /* UIColor */,
+				E798B8431B85B7A700FA96B2 /* UIView */,
+				E798B8461B85B7A700FA96B2 /* UIWebView */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		E798B83D1B85B7A700FA96B2 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				E798B83E1B85B7A700FA96B2 /* NSString+create.h */,
+				E798B83F1B85B7A700FA96B2 /* NSString+create.m */,
+				E798B84D1B85C87600FA96B2 /* NSString+drawing.h */,
+				E798B84E1B85C87600FA96B2 /* NSString+drawing.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		E798B8401B85B7A700FA96B2 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E798B8411B85B7A700FA96B2 /* UIColor+Util.h */,
+				E798B8421B85B7A700FA96B2 /* UIColor+Util.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E798B8431B85B7A700FA96B2 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				E798B8441B85B7A700FA96B2 /* UIView+Util.h */,
+				E798B8451B85B7A700FA96B2 /* UIView+Util.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		E798B8461B85B7A700FA96B2 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				E798B8471B85B7A700FA96B2 /* UIWebView+operations.h */,
+				E798B8481B85B7A700FA96B2 /* UIWebView+operations.m */,
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
+		E798B8501B85D78F00FA96B2 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				E798B8511B85D78F00FA96B2 /* NSDate+Utils.h */,
+				E798B8521B85D78F00FA96B2 /* NSDate+Utils.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		E798B8541B85D79F00FA96B2 /* MP3Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				E798B8551B85D79F00FA96B2 /* lame.h */,
+				E798B8561B85D79F00FA96B2 /* libmp3lame.a */,
+				E798B8571B85D79F00FA96B2 /* Mp3Recorder.h */,
+				E798B8581B85D79F00FA96B2 /* Mp3Recorder.m */,
+				E798B8591B85D79F00FA96B2 /* UUAVAudioPlayer.h */,
+				E798B85A1B85D79F00FA96B2 /* UUAVAudioPlayer.m */,
+			);
+			path = MP3Recorder;
+			sourceTree = "<group>";
+		};
 		E7D55D971B831222004A33FF = {
 			isa = PBXGroup;
 			children = (
@@ -322,10 +420,11 @@
 		E7D55DDD1B831810004A33FF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E74811C91B8464C40009D2D8 /* Vender */,
 				E7D55DDE1B831810004A33FF /* BaseDefines */,
-				E7D55DE11B831810004A33FF /* Utils */,
+				E798B8361B85B70100FA96B2 /* Categorys */,
 				E7D55DE41B831810004A33FF /* Views */,
+				E7D55DE11B831810004A33FF /* Utils */,
+				E74811C91B8464C40009D2D8 /* Vender */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -334,6 +433,8 @@
 			isa = PBXGroup;
 			children = (
 				E7D55DEC1B831864004A33FF /* CommonDefines.h */,
+				E798B85E1B85DF3C00FA96B2 /* CommonNotifications.h */,
+				E798B85F1B85DF3C00FA96B2 /* CommonNotifications.m */,
 				E7D55DED1B831881004A33FF /* LogDefines.h */,
 				E7D55DFD1B832673004A33FF /* BaseObject.h */,
 				E7D55DFE1B832673004A33FF /* BaseObject.m */,
@@ -354,10 +455,6 @@
 			children = (
 				E7D55DEE1B83190E004A33FF /* GlobCaches.h */,
 				E7D55DEF1B83190E004A33FF /* GlobCaches.m */,
-				E74811C31B845C020009D2D8 /* NSString+create.h */,
-				E74811C41B845C020009D2D8 /* NSString+create.m */,
-				E74811C61B8461000009D2D8 /* UIWebView+operations.h */,
-				E74811C71B8461000009D2D8 /* UIWebView+operations.m */,
 				E7D55DE21B831810004A33FF /* Util_Blocks.h */,
 				E7D55DE31B831810004A33FF /* Util_Blocks.m */,
 				E7D55E001B8326BD004A33FF /* ValidateUtil.h */,
@@ -493,27 +590,34 @@
 			files = (
 				E74811F51B8464C40009D2D8 /* SDURLCache.m in Sources */,
 				E7D55DF91B8319DF004A33FF /* BaseTableViewCell.m in Sources */,
+				E798B8601B85DF3C00FA96B2 /* CommonNotifications.m in Sources */,
 				E7D55DB41B831222004A33FF /* AppDelegate.m in Sources */,
 				E7D55DF31B83196E004A33FF /* BaseNavigationController.m in Sources */,
 				E7D55DE81B831810004A33FF /* BaseViewController.m in Sources */,
+				E798B84F1B85C87600FA96B2 /* NSString+drawing.m in Sources */,
 				E74811F31B8464C40009D2D8 /* MJRefreshFooterView.m in Sources */,
-				E74811C51B845C020009D2D8 /* NSString+create.m in Sources */,
 				E74811F41B8464C40009D2D8 /* MJRefreshHeaderView.m in Sources */,
+				E798B8531B85D78F00FA96B2 /* NSDate+Utils.m in Sources */,
+				E798B84A1B85B7A700FA96B2 /* UIColor+Util.m in Sources */,
 				E7D55DFC1B831AD7004A33FF /* MainNavigationController.m in Sources */,
 				E74811F21B8464C40009D2D8 /* MJRefreshBaseView.m in Sources */,
 				E7D55E021B8326BD004A33FF /* ValidateUtil.m in Sources */,
 				E74811F01B8464C40009D2D8 /* MBProgressHUD.m in Sources */,
-				E74811C81B8461000009D2D8 /* UIWebView+operations.m in Sources */,
 				E7D55E061B833F73004A33FF /* TestStringViewController.m in Sources */,
 				E7D55E0B1B833FA1004A33FF /* TestImgCacheViewController.m in Sources */,
 				E7D55DF61B831991004A33FF /* BaseView.m in Sources */,
+				E798B84B1B85B7A700FA96B2 /* UIView+Util.m in Sources */,
 				E748120A1B8469480009D2D8 /* UIView+HUD.m in Sources */,
 				E74811F81B8464C40009D2D8 /* UUInputAccessoryView.m in Sources */,
+				E798B8491B85B7A700FA96B2 /* NSString+create.m in Sources */,
 				E748120B1B8469480009D2D8 /* UIViewController+HUD.m in Sources */,
+				E798B85D1B85D79F00FA96B2 /* UUAVAudioPlayer.m in Sources */,
 				E7D55DF01B83190E004A33FF /* GlobCaches.m in Sources */,
 				E7D55DFF1B832673004A33FF /* BaseObject.m in Sources */,
 				E7D55DB01B831222004A33FF /* main.m in Sources */,
+				E798B84C1B85B7A700FA96B2 /* UIWebView+operations.m in Sources */,
 				E7D55DEA1B831810004A33FF /* MainViewController.m in Sources */,
+				E798B85C1B85D79F00FA96B2 /* Mp3Recorder.m in Sources */,
 				E7D55DE91B831810004A33FF /* Util_Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,6 +738,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NormalUtils/NormalUtils-Prefix.pch";
 				INFOPLIST_FILE = "NormalUtils/NormalUtils-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NormalUtils/Classes/Vender/MP3Recorder",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -647,6 +755,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NormalUtils/NormalUtils-Prefix.pch";
 				INFOPLIST_FILE = "NormalUtils/NormalUtils-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NormalUtils/Classes/Vender/MP3Recorder",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
