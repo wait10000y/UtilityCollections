@@ -36,9 +36,6 @@
 {
   
   
-  
-  
-  
   [self.mRowsDict setDictionary:@{
                                   @"1. 测试字符串":@"TestStringViewController",
                                   @"2. 测试图片缓存":@"TestImgCacheViewController",

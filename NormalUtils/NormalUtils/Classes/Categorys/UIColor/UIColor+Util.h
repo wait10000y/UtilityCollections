@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define inNightMode NO
+
 @interface UIColor (Util)
 
 + (UIColor *)colorWithHex:(int)hexValue alpha:(CGFloat)alpha;
